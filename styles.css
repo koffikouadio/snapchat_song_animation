@@ -4,14 +4,25 @@
   box-sizing: border-box;
 }
 
-.wave-container {
+.music-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: red; */
-  /* width: 200px; */
   height: 80px;
+}
+
+button {
+  flex-grow: 2;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.wave-container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
